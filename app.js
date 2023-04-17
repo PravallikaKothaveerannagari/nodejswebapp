@@ -3,6 +3,7 @@ var app = express();
 app.get('/', function (req, res) {
   res.send('Happy coding!');
 });
-app.listen(80, function () {
-  console.log('Example app listening on port 80!');
+var port=80
+app.listen(port, function () {
+  console.log(`Example app listening on port ${port}!`);
 });
